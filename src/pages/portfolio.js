@@ -1,4 +1,4 @@
-import * as React fromm 'react'
+import * as React from 'react'
 
 const PortfolioPage = () => {
  return(
@@ -10,4 +10,4 @@ const PortfolioPage = () => {
  ) 
 }
 
-export defauly PortfolioPage
+export default PortfolioPage

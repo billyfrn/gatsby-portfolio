@@ -2,9 +2,11 @@
 import { jsx } from "theme-ui"
 import { withPrefix } from "gatsby"
 
-const PixelMe = () => {
+const PixelMe = (props) => {
   return (
-    <img src={withPrefix(`/bf-pxl.png`)} alt="Billy, Front end Web dev" />
+    <div class='wowImgWorked'>
+      <img src={withPrefix(`/bf-pxl.png`)} alt="Billy, Front end Web dev" />
+    </div>
   );
 };
 

@@ -1,9 +1,10 @@
-/** @jsx jsx */
 import * as React from "react"
+import { Helmet } from "react-helmet"
+import { withPrefix } from "gatsby"
 
 const Me = (props) => {
   return (
-    <img src={`/bf-pxl.png`} alt="Billy, Front end Web dev" />
+    <img src={withPrefix(`/bf-pxl.png`)} alt="Billy, Front end Web dev" />
   );
 };
 

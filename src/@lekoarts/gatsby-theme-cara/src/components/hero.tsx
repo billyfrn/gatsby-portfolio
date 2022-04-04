@@ -7,7 +7,7 @@ import Svg from "./svg"
 import { UpDown, UpDownWide } from "../styles/animations"
 // @ts-ignore
 import Intro from "../sections/intro"
-import Me from "../sections/me"
+import Me from "./me"
 
 const Hero = ({ offset, factor = 1 }: { offset: number; factor?: number }) => (
   <div>

@@ -44,7 +44,6 @@ const Hero = ({ offset, factor = 1 }: { offset: number; factor?: number }) => (
         <Intro />        
       </Inner>
       <Inner>
-        <div class='wtfman'></div>
         <PixelMe />
       </Inner>
     </Content>
@@ -52,6 +51,7 @@ const Hero = ({ offset, factor = 1 }: { offset: number; factor?: number }) => (
       <img src={/bf-pxl.png} alt="Billy, Front end Web dev" /> 
     );
   </div>
+  <div class='wtfman'></div>
 )
 
 export default Hero

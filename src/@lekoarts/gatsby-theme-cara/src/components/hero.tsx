@@ -41,6 +41,7 @@ const Hero = ({ offset, factor = 1 }: { offset: number; factor?: number }) => (
     <Content sx={{ variant: `texts.bigger` }} speed={0.4} offset={offset} factor={factor}>
       <Inner>
         <Intro />
+        <img src="/bf-pxl.png" alt="Billy, Front end Web dev">
       </Inner>
     </Content>
   </div>

@@ -1,4 +1,6 @@
 import * as React from 'react'
+import SEO from "./seo"
+import "./styles.css"
 
 const PortfolioPage = () => {
  return(

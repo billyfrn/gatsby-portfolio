@@ -48,6 +48,7 @@ const Hero = ({ offset, factor = 1 }: { offset: number; factor?: number }) => (
     render ( 
       <img src={/bf-pxl.png} alt="Billy, Front end Web dev" /> 
     );
+    <div class='wtfman'></div>
   </div>
 )
 

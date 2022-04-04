@@ -47,9 +47,6 @@ const Hero = ({ offset, factor = 1 }: { offset: number; factor?: number }) => (
         <PixelMe />
       </Inner>
     </Content>
-    render ( 
-      <img src={/bf-pxl.png} alt="Billy, Front end Web dev" /> 
-    );
   </div>
   <div class='wtfman'></div>
 )

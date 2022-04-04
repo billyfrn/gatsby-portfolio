@@ -8,6 +8,7 @@ import { UpDown, UpDownWide } from "../styles/animations"
 import PixelMe from "../../bf-pxl.png"
 // @ts-ignore
 import Intro from "../sections/intro"
+declare function require(path: string);
 
 const Hero = ({ offset, factor = 1 }: { offset: number; factor?: number }) => (
   <div>

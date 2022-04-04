@@ -5,6 +5,7 @@ import Inner from "../elements/inner"
 import Content from "../elements/content"
 import Svg from "./svg"
 import { UpDown, UpDownWide } from "../styles/animations"
+import PixelMe from "../../bf-pxl.png"
 // @ts-ignore
 import Intro from "../sections/intro"
 
@@ -41,7 +42,7 @@ const Hero = ({ offset, factor = 1 }: { offset: number; factor?: number }) => (
     <Content sx={{ variant: `texts.bigger` }} speed={0.4} offset={offset} factor={factor}>
       <Inner>
         <Intro />
-        <img src={`bf-pxl.png`} alt="Billy, Front end Web dev" />
+        <img src={PixelMe} alt="Billy, Front end Web dev" />
       </Inner>
     </Content>
   </div>

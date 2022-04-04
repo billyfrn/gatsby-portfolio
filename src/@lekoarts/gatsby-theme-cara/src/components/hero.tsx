@@ -44,7 +44,7 @@ const Hero = ({ offset, factor = 1 }: { offset: number; factor?: number }) => (
         <Intro />
         
         return (
-         <img src={`./bf-pxl.png`} alt="Billy, Front end Web dev" />
+         <img src={`/bf-pxl.png`} alt="Billy, Front end Web dev" />
         );
         
       </Inner>

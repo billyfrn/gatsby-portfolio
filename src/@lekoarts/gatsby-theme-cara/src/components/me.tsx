@@ -1,6 +1,5 @@
 /** @jsx jsx */
-
-import * as React from "react"
+import { jsx } from "theme-ui"
 import { withPrefix } from "gatsby"
 
 const PixelMe = () => {

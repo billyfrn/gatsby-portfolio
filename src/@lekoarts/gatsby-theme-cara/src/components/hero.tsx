@@ -7,7 +7,7 @@ import Svg from "./svg"
 import { UpDown, UpDownWide } from "../styles/animations"
 // @ts-ignore
 import Intro from "../sections/intro"
-import PixelMe from "./me"
+import PixelMe from "./pixelme"
 
 const Hero = ({ offset, factor = 1 }: { offset: number; factor?: number }) => (
   <div>

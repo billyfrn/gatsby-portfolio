@@ -48,6 +48,7 @@ module.exports = {
         ],
       },
     },
+    `gatsby-theme-gallery`,
     `gatsby-plugin-gatsby-cloud`,
     shouldAnalyseBundle && {
       resolve: `gatsby-plugin-webpack-bundle-analyser-v2`,

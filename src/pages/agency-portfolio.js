@@ -1,7 +1,6 @@
 import * as React from 'react'
 import SEO from "../@lekoarts/gatsby-theme-cara/src/components/seo"
 import "./styles.css"
-import Modal from "react-modal"
 
 Modal.setAppElement(`#___gatsby`);
 

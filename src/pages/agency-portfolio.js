@@ -3,7 +3,8 @@ import SEO from "../@lekoarts/gatsby-theme-cara/src/components/seo"
 import "./styles.css"
 
 const PortfolioPage = () => {
- return(
+ <React.Fragment>
+  <SEO />
   <main>
    <title>Agency Portfolio page</title>
    <div class='wrapper'>
@@ -11,7 +12,7 @@ const PortfolioPage = () => {
     <p>hi this is the agency portfolio page</p>
    </div>
   </main>
- ) 
+ </React.Fragment>
 }
 
 export default PortfolioPage

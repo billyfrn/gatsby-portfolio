@@ -4,6 +4,7 @@ import "./styles.css"
 
 const PortfolioPage = () => {
  return(
+  <SEO />
   <main>
    <title>Agency Portfolio page</title>
    <div class='wrapper'>

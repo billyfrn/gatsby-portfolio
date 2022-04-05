@@ -2,9 +2,6 @@ import * as React from 'react'
 import SEO from "../@lekoarts/gatsby-theme-cara/src/components/seo"
 import "./styles.css"
 
-Modal.setAppElement(`#___gatsby`);
-
-
 const PortfolioPage = () => {
  return(
   <main>

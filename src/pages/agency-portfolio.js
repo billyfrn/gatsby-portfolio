@@ -1,5 +1,6 @@
 import * as React from 'react'
 import { Helmet } from "react-helmet"
+import { Link } from "gatsby"
 import SEO from "../@lekoarts/gatsby-theme-cara/src/components/seo"
 import "./styles.css"
 

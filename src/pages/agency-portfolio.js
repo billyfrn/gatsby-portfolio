@@ -5,6 +5,10 @@ import "./styles.css"
 
 const PortfolioPage = () => {
     return (
+    <>
+      <Helmet>
+        <title>Agency Work</title>
+      </Helmet>
       <main>
        <title>Agency Portfolio page</title>
        <div class='wrapper'>
@@ -12,7 +16,8 @@ const PortfolioPage = () => {
         <p>hi this is the agency portfolio page</p>
        </div>
       </main>
-     )
+    </>
+    )
 }
 
 export default PortfolioPage

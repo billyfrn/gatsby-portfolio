@@ -11,8 +11,7 @@ const PortfolioPage = () => {
       </Helmet>
       <header>
         <Link to="/" className="brand-color logo-text">
-          var backArrow = '‹';
-          {backArrow}
+          back to home
         </Link>
       </header>
       <main>

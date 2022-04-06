@@ -9,6 +9,11 @@ const PortfolioPage = () => {
       <Helmet>
         <title>Agency Work</title>
       </Helmet>
+      <header>
+        <Link to="/" className="brand-color logo-text">
+          ‹
+        </Link>
+      </header>
       <main>
        <title>Agency Portfolio page</title>
        <div class='wrapper'>

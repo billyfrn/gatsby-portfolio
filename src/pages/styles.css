@@ -5,3 +5,9 @@
 .css-1b4cjwj {
     font-size: .9rem;
 }
+a.brand-color.logo-text {
+    padding: 0 11px;
+    font-size: 4em;
+    font-weight: 700;
+    line-height: 1em;
+}

@@ -12,7 +12,7 @@ const PortfolioPage = () => {
       </Helmet>
       <header>
         <Link to="/" className="brand-color logo-text">
-          back to home
+          ‹
         </Link>
       </header>
       <main>
